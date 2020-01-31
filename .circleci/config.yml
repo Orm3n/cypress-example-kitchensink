@@ -23,7 +23,7 @@ jobs:
             - ~/.cache
       # start server before starting tests
       - run:
-          command: npm run start:ci
+          command: npm start & wait-on http://localhost:8080
           background: true
 
 workflows:
