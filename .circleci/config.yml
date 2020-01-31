@@ -25,7 +25,6 @@ jobs:
       - run:
           command: npm run start:ci
           background: true
-      - run: npm run e2e:record
 
 workflows:
   version: 2
