@@ -22,7 +22,7 @@
     "colon:names": "colon-names",
     "e2e": "cypress run",
     "e2e:chrome": "cypress run --browser chrome",
-    "e2e:record": "cypress run --record",
+    "e2e:record": "cypress run --record --key=abc123",
     "e2e:record:parallel": "cypress run --record --parallel",
     "test:ci": "run-p --race start:ci e2e",
     "test:ci:chrome": "run-p --race start:ci e2e:chrome",
